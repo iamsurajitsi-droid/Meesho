@@ -1,0 +1,9 @@
+.catagories {
+  padding: 0 1rem;
+  font-family: "Inter", sans-serif;
+}
+.catagories:hover {
+  border-bottom: 3px solid #570d48;
+  font-weight: 700;
+  color: #570d48;
+}
