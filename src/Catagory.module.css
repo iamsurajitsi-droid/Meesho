@@ -1,0 +1,11 @@
+.catagoryBox:hover {
+  img {
+    transform: translateY(-10px);
+  }
+}
+
+.catagoryBox {
+  img {
+    transition: transform 0.3s ease;
+  }
+}

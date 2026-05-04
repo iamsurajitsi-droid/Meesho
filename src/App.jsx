@@ -3,6 +3,7 @@ import BenefitsTab from "./BenefitsTab";
 import Header from "./Header";
 import HeaderCatagories from "./HeaderCatagories";
 import HeroSection from "./HeroSection";
+import CaragorySection from "./CaragorySection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </div>
       <HeroSection />
       <BenefitsTab />
+      <CaragorySection />
     </>
   );
 }
