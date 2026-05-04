@@ -1,0 +1,40 @@
+@media (max-width: 1900px) {
+  .contentDiv {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 1650px) {
+  .contentDiv {
+    font-size: 0.8em;
+
+    button {
+      font-size: 1.7em;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .contentDiv {
+    font-size: 0.7em;
+
+    button {
+      font-size: 1.6em;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .contentDiv {
+    font-size: 0.65em;
+
+    button {
+      font-size: 1.5em;
+    }
+  }
+}
+.contentDiv {
+  button {
+    box-shadow: 2px 3px #4b4b4b35;
+  }
+}

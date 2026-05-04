@@ -7,9 +7,12 @@ import styles from "./Header.module.css";
 function Header() {
   return (
     <div className="Header-container flex h-18 items-center justify-center border-b border-[#6060626b]">
-      <h1 className="AppName text-5xl text-[#570d48] font-semibold mr-8">
+      <Link
+        to={"#"}
+        className="AppName text-5xl text-[#570d48] font-semibold mr-8"
+      >
         meesho
-      </h1>
+      </Link>
       <div className="searchBar w-150 h-11.25 border border-[#8b8ba3] rounded-[0.40rem] flex items-center pl-2">
         <IoIosSearch size={27} className="" opacity={0.5} />
         <input
