@@ -4,6 +4,7 @@ import Header from "./Header";
 import HeaderCatagories from "./HeaderCatagories";
 import HeroSection from "./HeroSection";
 import CaragorySection from "./CaragorySection";
+import GoldHeroSection from "./GoldHeroSection";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HeroSection />
       <BenefitsTab />
       <CaragorySection />
+      <GoldHeroSection />
     </>
   );
 }
