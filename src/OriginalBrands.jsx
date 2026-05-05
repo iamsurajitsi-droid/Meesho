@@ -38,7 +38,7 @@ function OriginalBrands() {
       </div>
 
       {/* Scroll Section */}
-      <div className="w-full px-6 md:px-16 overflow-x-auto">
+      <div className="w-full px-6 md:px-16 overflow-x-auto no-scrollbar">
         <div className="flex gap-4 md:gap-6 w-max">
           {brandNames.map((brand, i) => (
             <div
