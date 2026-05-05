@@ -1,0 +1,19 @@
+.brandContainer {
+}
+.wrapper {
+  animation: spin 2s infinite linear;
+}
+.brandContainer:hover {
+  .wrapper {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

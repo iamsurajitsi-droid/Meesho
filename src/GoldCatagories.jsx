@@ -2,7 +2,6 @@ import lehengas from "./assets/goldCata/lehengas.webp";
 import manwear from "./assets/goldCata/manwear.webp";
 import sarees from "./assets/goldCata/sarees.webp";
 import jewellery from "./assets/goldCata/jewellery.webp";
-import styles from "./GoldCatagories.module.css";
 
 function GoldCatagories({ className }) {
   const goldcataArr = [
@@ -11,16 +10,28 @@ function GoldCatagories({ className }) {
     { goldCataImg: sarees },
     { goldCataImg: jewellery },
   ];
+
   return (
     <div
-      className={`${className} ${styles.cataDiv} max-w-225 min-w-150 aspect-square grid grid-cols-2 gap-16 p-32`}
+      className={`
+        ${className}
+        grid grid-cols-2
+        gap-4 sm:gap-6 md:gap-8
+        w-[40vw] max-w-[320px]
+      `}
     >
-      {goldcataArr.map((cata) => {
+      {goldcataArr.map((cata, i) => {
         return (
-          <a href="#">
+          <a href="#" key={i}>
             <img
               src={cata.goldCataImg}
-              className={`${styles.goldImg} w-53.25 min-w-30 aspect-213/265 hover:-translate-y-1 transition-all`}
+              className="
+                w-full
+                aspect-213/265
+                object-cover
+                transition-transform duration-300
+                hover:-translate-y-1
+              "
             />
           </a>
         );

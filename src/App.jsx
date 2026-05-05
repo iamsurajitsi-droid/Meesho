@@ -5,6 +5,8 @@ import HeaderCatagories from "./HeaderCatagories";
 import HeroSection from "./HeroSection";
 import CaragorySection from "./CaragorySection";
 import GoldHeroSection from "./GoldHeroSection";
+import OriginalBrands from "./OriginalBrands";
+import TrustedBrands from "./TrustedBrands";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <BenefitsTab />
       <CaragorySection />
       <GoldHeroSection />
+      <OriginalBrands />
+      <TrustedBrands/>
     </>
   );
 }

@@ -5,14 +5,14 @@ import GoldCatagories from "./GoldCatagories";
 
 function GoldHeroSection() {
   return (
-    <div className="w-screen aspect-1440/588 relative">
-      <img src={heroTwo} alt="" className="absolute w-full -z-50" />
+    <div className="w-full relative">
+      <img src={heroTwo} alt="" className="w-full object-cover" />
+
       <GoldShopBtn
-        className={`${style.goldButton} absolute left-[13vw] bottom-[5vw]`}
+        className={`${style.goldButton} absolute left-[8vw] bottom-[6vw]`}
       />
-      <GoldCatagories
-        className={`${style.goldCata} absolute left-2/3 top-1/2 -translate-y-1/2`}
-      />
+
+      <GoldCatagories className="absolute right-[5vw] top-1/2 -translate-y-1/2" />
     </div>
   );
 }

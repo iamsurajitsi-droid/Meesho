@@ -1,5 +1,8 @@
-/* @media (max-width: 1665px) {
+/* cataDiv is container */
+/* goldImg is chield */
+
+@media (max-width: 1550px) {
   .cataDiv {
-    width: 27.5rem;
+    max-width: 50rem;
   }
-} */
+}

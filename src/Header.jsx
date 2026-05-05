@@ -6,7 +6,7 @@ import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <div className="Header-container flex h-18 items-center justify-center border-b border-[#6060626b]">
+    <div className="Header-container flex h-18 items-center justify-center border-b border-[#6060626b] ml-24 mr-24">
       <Link
         to={"#"}
         className="AppName text-5xl text-[#570d48] font-semibold mr-8"
