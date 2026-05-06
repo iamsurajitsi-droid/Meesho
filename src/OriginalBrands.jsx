@@ -43,7 +43,7 @@ function OriginalBrands() {
           {brandNames.map((brand, i) => (
             <div
               key={i}
-              className="min-w-[140px] sm:min-w-[160px] md:min-w-[200px] aspect-[224/303] flex-shrink-0"
+              className="min-w-[140px] sm:min-w-[160px] md:min-w-[200px] aspect-[224/303] flex-shrink-0 cursor-pointer"
             >
               <img
                 src={brand.brandImg}

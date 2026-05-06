@@ -7,6 +7,7 @@ import CaragorySection from "./CaragorySection";
 import GoldHeroSection from "./GoldHeroSection";
 import OriginalBrands from "./OriginalBrands";
 import TrustedBrands from "./TrustedBrands";
+import OfferHeroSection from "./OfferHeroSection";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <GoldHeroSection />
       <OriginalBrands />
       <TrustedBrands/>
+      <OfferHeroSection/>
     </>
   );
 }
