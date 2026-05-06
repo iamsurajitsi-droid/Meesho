@@ -28,6 +28,7 @@ function OffersCards({ className, childClass }) {
       {cardArr.map((card) => {
         return (
           <div
+            key={card.text}
             className={`${childClass} offersCardBox p-4 rounded-4xl transition hover:-translate-y-1 hover:shadow-2xl`}
           >
             <img src={card.imgLink} className={`top-0`} />

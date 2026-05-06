@@ -8,6 +8,7 @@ import GoldHeroSection from "./GoldHeroSection";
 import OriginalBrands from "./OriginalBrands";
 import TrustedBrands from "./TrustedBrands";
 import OfferHeroSection from "./OfferHeroSection";
+import ProductsTab from "./ProductsTab";
 
 function App() {
   return (
@@ -16,13 +17,14 @@ function App() {
         <Header />
         <HeaderCatagories />
       </div>
+      <ProductsTab />
       <HeroSection />
       <BenefitsTab />
       <CaragorySection />
       <GoldHeroSection />
       <OriginalBrands />
-      <TrustedBrands/>
-      <OfferHeroSection/>
+      <TrustedBrands />
+      <OfferHeroSection />
     </>
   );
 }

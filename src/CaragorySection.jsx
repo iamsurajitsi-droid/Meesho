@@ -58,6 +58,7 @@ function CaragorySection() {
         {cataArr.map((cata) => {
           return (
             <Catagory
+              key={cata.cataName}
               cataImage={cata.cataImageLink}
               cataName={cata.cataName}
               link="#"

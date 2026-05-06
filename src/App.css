@@ -1,0 +1,23 @@
+input[type="radio"] {
+  height: 1.5rem;
+  width: 1.5rem;
+  appearance: none;
+  border: 2px solid #5f6164;
+  border-radius: 0.2rem;
+  margin: 0 0.4rem;
+}
+
+input[type="radio"]:checked {
+  border: 3px solid #6600ff;
+}
+
+input[type="radio"]:checked::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
