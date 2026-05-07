@@ -121,15 +121,6 @@ function FilterTab({ className, handleFilter }) {
       url: "https://dummyjson.com/products/category/womens-watches",
     },
   ];
-  /*    <input type="radio" id="contactChoice1" name="contact" value="email" />
-      <label for="contactChoice1">Email</label> */
-
-  /*  {
-      slug: "beaut-y",
-      name: "Beaut y",
-      url: "https://dummyjson.com/products/category/beauty",
-    } */
-
   return (
     //Container
     <div
@@ -164,8 +155,3 @@ function FilterTab({ className, handleFilter }) {
 
 export default FilterTab;
 
-// {
-//   "slug": "beauty",
-//   "name": "Beauty",
-//   "url": "https://dummyjson.com/products/category/beauty"
-// }

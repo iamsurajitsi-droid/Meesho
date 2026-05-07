@@ -80,14 +80,14 @@ function Products({ className, selectedFilter }) {
               ${product.price} {/* Discounted Price */}
               <span className="font-normal mx-3 line-through text-[#8b8ba3] text-[0.8em]">
                 $
-                {product.price +
-                  Math.round(
-                    (product.price * product.discountPercentage) / 100,
-                  )}
+                {(
+                  product.price +
+                  (product.price * product.discountPercentage) / 100
+                ).toFixed(2)}
               </span>
               {/* Discount */}
               <span className="text-[#038d63] text-[0.7em]">
-                {product.discountPercentage} off
+                {product.discountPercentage}% off
               </span>
             </span>
 

@@ -1,6 +1,6 @@
 input[type="radio"] {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 1rem;
+  width: 1rem;
   appearance: none;
   border: 2px solid #5f6164;
   border-radius: 0.2rem;
@@ -8,15 +8,18 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-  border: 3px solid #6600ff;
+  height: 1rem;
+  width: 1rem;
+  border-color: #570d48;
+  background-color: #570d48;
 }
 
 input[type="radio"]:checked::before {
+  position: absolute;
   content: "";
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

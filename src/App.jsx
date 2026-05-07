@@ -13,7 +13,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <>
+    <div className="AppContainer max-w-[100vw] overflow-hidden">
       <div className="headContainer sticky top-0 left-0 w-full bg-white z-50">
         <Header />
         <HeaderCatagories />
@@ -27,7 +27,7 @@ function App() {
       <OfferHeroSection />
       <ProductsTab />
       <Footer />
-    </>
+    </div>
   );
 }
 
