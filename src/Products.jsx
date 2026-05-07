@@ -54,14 +54,14 @@ function Products({ className, selectedFilter }) {
 
   return (
     <div
-      className={`${className} products grid grid-cols-4 h-fit gap-2 min-h-40 justify-center items-center  pt-4`}
+      className={`${className} products grid grid-cols-4 h-fit gap-2 min-h-40 justify-center items-center  pt-4 min-[121rem]:grid-cols-5 max-[93.75rem]:grid-cols-3`}
     >
       {/* Product Div */}
       {products.products.map((product) => {
         return (
           <div
             key={product.id}
-            className="aspect-325/405 w-81.25 border border-[#eaeaf2] text-[1rem] flex flex-col p-2 bg-white m-2 rounded-lg"
+            className="aspect-325/405 w-81.25 border border-[#eaeaf2] text-[1rem] flex flex-col p-2 bg-white m-2 rounded-lg cursor-pointer max-[109rem]:w-75 max-[102rem]:w-70 max-[93.75rem]:w-85 max-[84.3rem]:w-75 max-[74.3rem]:w-70"
           >
             {/* Product image */}
             <div className="w-full h-1/2">

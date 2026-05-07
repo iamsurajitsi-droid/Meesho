@@ -11,7 +11,7 @@ function ProductsTab() {
   }
   return (
     <div className={`FeaturesContainer flex`}>
-      <div className="features p-6 flex flex-col w-1/5 gap-4">
+      <div className="features p-6 flex flex-col w-1/5 gap-4 min-w-70">
         <SortBy className={``} />
         <FilterTab handleFilter={handleFilterChange} className={``} />
       </div>
