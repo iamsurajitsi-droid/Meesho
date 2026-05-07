@@ -9,6 +9,7 @@ import OriginalBrands from "./OriginalBrands";
 import TrustedBrands from "./TrustedBrands";
 import OfferHeroSection from "./OfferHeroSection";
 import ProductsTab from "./ProductsTab";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
         <Header />
         <HeaderCatagories />
       </div>
-      <ProductsTab />
       <HeroSection />
       <BenefitsTab />
       <CaragorySection />
@@ -25,6 +25,8 @@ function App() {
       <OriginalBrands />
       <TrustedBrands />
       <OfferHeroSection />
+      <ProductsTab />
+      <Footer />
     </>
   );
 }

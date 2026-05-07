@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
-
-function FilterTab({ className }) {
+function FilterTab({ className, handleFilter }) {
   const cataArr = [
     {
       slug: "beauty",
@@ -149,8 +147,9 @@ function FilterTab({ className }) {
               <input
                 type="radio"
                 name={`category`}
-                value={cata.slug}
+                value={cata.url}
                 id={cata.slug}
+                onChange={handleFilter}
               />
               <label htmlFor={cata.slug} className="text-[1.2rem]">
                 {cata.name}
