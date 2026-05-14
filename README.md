@@ -1,16 +1,52 @@
-# React + Vite
+# Meesho Clone 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **Meesho Clone Website** built using **React JS, JavaScript, HTML, and CSS**.  
+This project was created to improve my frontend development skills and strengthen my portfolio by building a real-world e-commerce UI clone.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 Add your deployed link here  
+Example: `https://meesho-clone-app.netlify.app/`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive Homepage
+- Product Listing Section
+- Navigation Bar
+- Search Functionality UI
+- Category Sections
+- Modern UI Design
+- Mobile Friendly Layout
+- Reusable React Components
+- Clean and Organized Code Structure
+
+---
+
+## 🛠️ Technologies Used
+
+- React JS
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- React Hooks
+- Responsive Design
+
+---
+
+## 📂 Project Structure
+
+```bash
+meesho-clone/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.js
+│   ├── index.js
+│── package.json
+│── README.md
