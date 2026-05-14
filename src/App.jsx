@@ -27,7 +27,6 @@ function App() {
       <OfferHeroSection />
       <ProductsTab />
       <Footer />
-      {/* Test */}
     </div>
   );
 }
