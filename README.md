@@ -7,8 +7,7 @@ This project was created to improve my frontend development skills and strengthe
 
 ## 🚀 Live Demo
 
-👉 Add your deployed link here  
-Example: `https://meesho-clone-app.netlify.app/`
+https://meesho-clone-app.netlify.app/
 
 ---
 
